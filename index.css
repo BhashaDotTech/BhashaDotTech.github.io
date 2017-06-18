@@ -293,6 +293,7 @@ input{
 	background: #fff;
 	box-shadow: 12px 15px 20px 0 rgba(46,61,73,.15);
 	margin: 10px;
+	transition: all 0.4s ease
 }
 
 .f1{
@@ -315,7 +316,58 @@ input{
 	background-size: cover;
 }
 
+.f7{
+	background: url(tom.jpg) center center no-repeat;
+	background-size: cover;
+}
+.f5{
+	background: url(tree.jpg) center center no-repeat;
+	background-size: cover;
+}
+.f6{
+	background: url(udemy.jpg) center center no-repeat;
+	background-size: cover;
+}
+.f8{
+	background: url(swayam.jpg) center center no-repeat;
+	background-size: cover;
+}
+
 a{
 	font-style: none;
 	color: inherit;
+}
+
+.de1{
+	animation-delay: 0.5s;
+}
+.de2{
+	animation-delay: 1s;
+}
+.de3{
+	animation-delay: 1.5s;
+}
+.de4{
+	animation-delay: 2s;
+}
+
+@media(max-width: 915px){
+	.featu{
+		width: 300px;
+	}
+}
+@media(max-width: 950px){
+	.loginpage{
+		margin-left:-10% ;
+	}
+}
+
+@media(max-width: 700px){
+	.featu{
+		width: 200px;
+	}
+
+	.loginpage{
+		margin-left:-15% ;
+	}
 }
