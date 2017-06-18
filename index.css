@@ -226,6 +226,10 @@ input{
 	outline: none;
 }
 
+.srch::placeholder{
+	color:#fff ;
+}
+
 .sea{
 	margin-left:30px ;
 	width:40px ;

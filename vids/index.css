@@ -223,3 +223,7 @@ a{
 	font-style: none;
 	text-decoration: none;
 }
+
+input::placeholder{
+	color:#fff ;
+}
