@@ -121,27 +121,9 @@ body{
 	position: relative;
 	width: 100%;
 	height:200px ;
-}
-
-
-.bim1{
-	background: url("logo1.png") center center no-repeat;
+	background: url(youtube.jpg) center center;
 	background-size: cover;
-}
 
-.bim2{
-
-	background-size: cover;
-}
-
-.bim3{
-
-	background-size: cover;
-}
-
-.bim4{
-
-	background-size: cover;
 }
 
 
